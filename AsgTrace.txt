@@ -1,0 +1,94 @@
+
+MSNT_SystemTrace\EventTrace-Header, Process, Thread, Timestamp, Message
+MSNT_SystemTrace\EventTrace-PartitionInfoExtensionV2, Process, Thread, Timestamp, Message
+Microsoft.ASG.Perception\GenericError, Process, Thread, Timestamp, Message
+Microsoft.ASG.Perception\GenericVerbose, Process, Thread, Timestamp, Message
+Microsoft.ASG.Perception\PerceptionSessionUsageStats, Process, Thread, Timestamp, Message
+
+MSNT_SystemTrace\EventTrace-Header, <Unknown> (156424), 0x0002370c, 2024/03/18 11:05:56.924, "", 65536, 83951626, 26077, 12, 133552336337427223, 156250, 0, 0x00000000, 10, 1, 4, 0, 2975, 13, 7, (UTC -8:00) Pacific Standard Time, 133550034845728399, 10000000, 133552335569241303, 0x00000001, 0, AsgTrace, C:\Users\jdugar\Desktop\Unplugged-cadmus-related-changes\E2E\Logs\2024-03-15-13-22-46-ReleaseTestSet\CameraAppTest\Recording\720p\1.6MP\Pluggedin\AF+CF-W+ECE+BBP\AsgTrace.etl
+MSNT_SystemTrace\EventTrace-PartitionInfoExtensionV2, <Unknown> (156424), 0x0002370c, 2024/03/18 11:05:56.924, "", 0, 0, 0, 0, , 
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00021c84, 2024/03/18 11:05:58.562, ActivityEventOrUnknown::GenericVerbose, "", starting Microsoft.ASG.Perception provider 0x7ff844fdedb0 0xffff2ebf8f3b30df
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00021c84, 2024/03/18 11:05:58.562, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore Library v2.4.4
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00021c84, 2024/03/18 11:05:58.562, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore Revision "g758faee"
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00021c84, 2024/03/18 11:05:58.562, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore instance 000001CA35BC9460
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00021c84, 2024/03/18 11:05:58.562, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore compiled with threading
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00021c84, 2024/03/18 11:05:58.564, ActivityEventOrUnknown::GenericVerbose, "", Powermode initial state: device is not in low power mode.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00021c84, 2024/03/18 11:05:58.564, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore using MFWorkQueue ID - 327681
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.732, ActivityEventOrUnknown::GenericVerbose, "", Initializing orientation sensor
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.736, ActivityEventOrUnknown::GenericVerbose, "", Orientation sensor init complete
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.736, ActivityEventOrUnknown::GenericVerbose, "", Started initializing PerceptionCore Library: requested scenarios = 4060, current_scenarios = 0
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.753, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 152; time to load resource 13 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.756, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.756, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.873, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.877, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 101; time to load resource 0 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.878, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.878, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.885, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.900, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 113; time to load resource 12 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.903, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.903, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.913, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.916, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 109; time to load resource 1 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.916, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.916, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.928, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025c3c, 2024/03/18 11:05:58.928, ActivityEventOrUnknown::GenericVerbose, "", Succeeded in initializing PerceptionCore Library: new scenarios = 4060, initialized scenarios = 104167, old_scenarios = 0
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.191, ActivityEventOrUnknown::GenericVerbose, "", Started initializing PerceptionCore Library: requested scenarios = 10000, current_scenarios = 104167
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x000251f4, 2024/03/18 11:05:59.192, ActivityEventOrUnknown::GenericVerbose, "", Triggering AsyncInit because of a property change: CreativeFilter.Active
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.195, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 132; time to load resource 0 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.195, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.195, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.204, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.210, ActivityEventOrUnknown::GenericVerbose, "", Succeeded in initializing PerceptionCore Library: new scenarios = 10000, initialized scenarios = 114167, old_scenarios = 104167
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.210, ActivityEventOrUnknown::GenericVerbose, "", Started initializing PerceptionCore Library: requested scenarios = 20000, current_scenarios = 114167
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x0002630c, 2024/03/18 11:05:59.223, ActivityEventOrUnknown::GenericVerbose, "", Resetting Active Director with image dimensions: 1920 X 1080 and image rotation: 0 (old image dimensions: 1280 X 720).
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025448, 2024/03/18 11:05:59.227, ActivityEventOrUnknown::GenericVerbose, "", Resetting with image dimensions 1920 X 1080
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.231, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 144; time to load resource 18 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x0002630c, 2024/03/18 11:05:59.236, ActivityEventOrUnknown::GenericVerbose, "", First frame for PerceptionCore instance 000001CA35BC9460, time to first frame 673400300
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.236, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.237, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.252, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.264, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 150; time to load resource 7 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.266, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.266, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.292, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.306, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 119; time to load resource 7 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.308, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.308, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.317, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.322, ActivityEventOrUnknown::GenericVerbose, "", Succeeded in initializing PerceptionCore Library: new scenarios = 20000, initialized scenarios = 134177, old_scenarios = 114167
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.322, ActivityEventOrUnknown::GenericVerbose, "", Started initializing PerceptionCore Library: requested scenarios = 200000, current_scenarios = 134177
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.328, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 158; time to load resource 3 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.329, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.329, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.349, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.368, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 159; time to load resource 15 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.371, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.371, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.389, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericError, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.394, ActivityEventOrUnknown::GenericError, "", 18446513999009493215, PerceptionCore-v2.4.4, Snpe Error registering memory buffers: error_code=216; error_message=Undefined error. QnnMemRegister() failed err= 1004 num buffers= 2 no of memhandles= 2; error_component=SNPE; line_no=2096; thread_id=153392, 33554432
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.396, ActivityEventOrUnknown::GenericVerbose, "", Succeeded in initializing PerceptionCore Library: new scenarios = 200000, initialized scenarios = 334177, old_scenarios = 134177
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.396, ActivityEventOrUnknown::GenericVerbose, "", Started initializing PerceptionCore Library: requested scenarios = 104167, current_scenarios = 334177
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x00025730, 2024/03/18 11:05:59.396, ActivityEventOrUnknown::GenericVerbose, "", Requested scenarios were already initialized.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.047, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore Library v2.4.4
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.047, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore Revision "g758faee"
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.047, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore instance 000001F4C29E8D50
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.047, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore compiled with threading
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.049, ActivityEventOrUnknown::GenericVerbose, "", Powermode initial state: device is not in low power mode.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.049, ActivityEventOrUnknown::GenericVerbose, "", Started initializing PerceptionCore Library: requested scenarios = 200, current_scenarios = 0
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.075, ActivityEventOrUnknown::GenericVerbose, "", success loading resource 142; time to load resource 19 ms
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.079, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore 3.3.0.g758faee Framework SNPE 2.19.2.240209155149_76529
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.079, ActivityEventOrUnknown::GenericVerbose, "", located user specified execution priority HIGH
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.079, ActivityEventOrUnknown::GenericVerbose, "", located user specified performance profile sustained_high_performance
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.100, ActivityEventOrUnknown::GenericVerbose, "", ComputeCore model loaded.
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.106, ActivityEventOrUnknown::GenericVerbose, "", Succeeded in initializing PerceptionCore Library: new scenarios = 200, initialized scenarios = 200, old_scenarios = 0
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x00024b8c, 2024/03/18 11:06:07.106, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore Revision "g758faee"
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x000261d0, 2024/03/18 11:06:26.610, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore destructor: entry for instance 000001F4C29E8D50
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (13528), 0x000261d0, 2024/03/18 11:06:26.629, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore library destroyed: instance 000001F4C29E8D50
+Microsoft.ASG.Perception\PerceptionSessionUsageStats, <Unknown> (13528), 0x000261d0, 2024/03/18 11:06:26.629, ActivityEventOrUnknown::PerceptionSessionUsageStats, "", 18446742083736010615, PerceptionCore-v2.4.4, 512, 1940, 19482395900, 2070633, 749100, 21318200, 1940, 0, 0, 0, 0, 0, 0, 0, 0, 54740, 54740, 54740, 19482395900, 1, 0, {122417152, 72798208, 70723288, 24682496}, 0, 8, 33554432
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x000195d4, 2024/03/18 11:06:30.806, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore destructor: entry for instance 000001CA35BC9460
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x000195d4, 2024/03/18 11:06:30.862, ActivityEventOrUnknown::GenericVerbose, "", PerceptionCore library destroyed: instance 000001CA35BC9460
+Microsoft.ASG.Perception\PerceptionSessionUsageStats, <Unknown> (153120), 0x000195d4, 2024/03/18 11:06:30.862, ActivityEventOrUnknown::PerceptionSessionUsageStats, "", 18446513999009493215, PerceptionCore-v2.4.4, 2310144, 927, 31436085100, 16964483, 9435300, 36773000, 847, 35, 20, 13, 4, 4, 4, 0, 0, 54740, 54740, 54740, 31436085100, 1, 0, {186376192, 628613120, 417100, 231473152}, 0, 4, 33554432
+Microsoft.ASG.Perception\GenericVerbose, <Unknown> (153120), 0x000195d4, 2024/03/18 11:06:30.882, ActivityEventOrUnknown::GenericVerbose, "", stopping Microsoft.ASG.Perception provider 0x7ff844fdedb0 0xffff2ebf8f3b30df
+
