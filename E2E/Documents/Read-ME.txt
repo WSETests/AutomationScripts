@@ -1,0 +1,64 @@
+Test Overview
+The Automation script supports all Socs and MEP versions. 
+ 
+Validation:
+•	AI Effects (Audio and video) toggles are available and can be toggled On/Off.
+•	MEP is not supported in Photo Mode
+•	Correct scenarioId generated for individual and combined effects.
+•	Verifies if Video frame rate greater than 29fps or not.
+•	Notify how many frames are taking more than 33ms for processing.
+•	Tests runs with device Plugged in and Unplugged.
+•	Tests run with different video and photo Resolution.
+•	Validate through asgtrace PC session is initialized and completed.(Check for Starting Microsoft.ASG.Perception and Stopping Microsoft.ASG.Perception logs captured)
+ 
+ 
+Report Metrics: Sample- https://microsoft-my.sharepoint.com/:x:/p/jdugar/ET2SO8WbD19IgubwEp91xXEBuSB6_6gEC5blyvZqzvahFA?e=FIAXIs
+•	Number of frames took more than 33ms for processing.
+•	Average processing time per frame.
+•	Minimum processing time per frame.
+•	Maximum processing time per frame.
+•	PC time to the first frame.
+•	Camera App Init Time (Camera App start time minus PC time to first frame).
+•	Voice Recorder App Init Time (Voice Recorder App start time minus PC time to first frame).
+•	Video frame rate 
+ 
+ 
+Test Runs Description:
+We have three sets of Test Runs:
+1.CheckInTest.ps1:
+•	Runs tests with a single effect enabled and verifies effects can be toggled On and correct scenario ID is generated. It also includes one Camera and one Voice recorder end to end test with the device plugged in and unplugged.
+2.ReleaseTest.ps1:
+•	Runs 800+ tests with different combinations of AI effects, video resolution, photo resolution, plugged in and unplugged.
+•	Multiple video and photo resolution supported across different devices are added. Please feel free to add or remove resolution depending on the device under test.
+3.StressTest.ps1:
+•	Series of tests executed to put the device under stress (both plugged in and unplugged).
+ 
+ 
+How to Run the Script:
+•	Before we start the script, please run some sanity test manually. Make sure you can toggle the audio and video effects in setting page. Can do audio and video recording.Camera app and Setting page opens maximized.
+•	Download the E2E folder from the repo.
+•	Launch an elevated PowerShell session, navigate to the E2E folder.
+•	Execute:
+	c:\E2E> .\CheckInTest.ps1
+	c:\E2E> .\CheckInTest.ps1 (Provide tokenId and smartplugId as parameters if you want to run the test both plugged in and unplugged)
+	For example: .\\CheckInTest.ps1 -tokenId -smartplugId 
+
+Logs Generation:
+Logs are generated in the following format: E2E\Logs (Date Time format with the test run name)
+For eg: E2E\Logs\ 2023-12-12-09-26-02-Checkin-Test or E2E\Logs\ 2023-12-12-09-26-02-ReleaseTest
+ 
+Interpretation of Console Output:
+•	Scenario : Result (Execution Time in seconds)
+•	For example: Pluggedin\Automatic-Framing : Passed (159.27)
+ 
+Output sample for CheckinTest.ps1 and ReleaseTest.ps1: Please see Output-Sample-For-CheckinTest-and-ReleaseTest.png file
+ 
+ Logs captured here:
+•	Asgtrace: 2023-12-12-09-26-02-Checkin-Test\Pluggedin\Autoframing\Asgtrace (Generated for each individual AI effect for both plugged in and unplugged).- Sample-  AF
+•	Console Result: 2023-12-12-09-26-02-Checkin-Test\ConsoleResults
+•	Report: 2023-12-12-09-26-02-Checkin-Test\Report.
+•	Run logs: 2023-12-12-09-26-02-Checkin-Test\Pluggedin-AutomaticFraming (Generated for each individual AI effect).
+ 
+ 
+ 
+
